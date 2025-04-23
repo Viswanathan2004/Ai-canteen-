@@ -1,0 +1,19 @@
+.about-us-page {
+    max-width: 600px;
+    margin: 36px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 32px;
+    border: 1px solid #e7e7e7;
+  }
+  .about-us-page h2 {
+    margin-bottom: 12px;
+  }
+  .about-us-page p {
+    font-size: 1.1em;
+    margin-bottom: 18px;
+  }
+  .about-us-page ul {
+    list-style: disc inside;
+    padding-left: 18px;
+  }

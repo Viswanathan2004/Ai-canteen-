@@ -1,0 +1,20 @@
+.items-page {
+    max-width: 400px;
+    margin: 32px auto;
+    background: #fefefe;
+    border-radius: 10px;
+    padding: 22px;
+    border: 1px solid #ebebeb;
+  }
+  .items-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  .items-page li {
+    padding: 7px 0;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .items-page span {
+    color: #888;
+    font-size: 0.95em;
+  }

@@ -1,0 +1,37 @@
+.login-page {
+    max-width: 350px;
+    margin: 44px auto;
+    background: #f9faff;
+    border-radius: 10px;
+    padding: 32px;
+    border: 1px solid #dbeafe;
+    text-align: center;
+  }
+  .login-page form input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #bcdff1;
+  }
+  .login-page button {
+    margin-top: 10px;
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .login-links {
+    margin-top: 14px;
+    font-size: 0.98em;
+  }
+  .login-error {
+    background: #ffd2d2;
+    color: #b71c1c;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 7px;
+  }

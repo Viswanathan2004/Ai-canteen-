@@ -1,0 +1,31 @@
+.diet-analysis {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fffbe7;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #f5e9c6;
+  text-align: center;
+}
+.diet-analysis textarea {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+.diet-analysis button {
+  padding: 8px 24px;
+  border-radius: 6px;
+  border: none;
+  background: #ffd700;
+  font-weight: bold;
+  cursor: pointer;
+}
+.analysis-result {
+  margin-top: 18px;
+  background: #f5ffef;
+  border-left: 5px solid #90ee90;
+  padding: 12px;
+  border-radius: 6px;
+}

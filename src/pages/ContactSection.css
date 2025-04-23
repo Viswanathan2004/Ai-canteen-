@@ -1,0 +1,31 @@
+.contact-section {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #f8f9ff;
+    border-radius: 10px;
+    padding: 28px;
+    border: 1px solid #dde2ec;
+    text-align: center;
+  }
+  .contact-section form input,
+  .contact-section form textarea {
+    width: 90%;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #cfd8dc;
+  }
+  .contact-section button {
+    background: #2979ff;
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .contact-info {
+    margin-top: 22px;
+    color: #555;
+    font-size: 0.98em;
+  }

@@ -1,0 +1,44 @@
+.signup-page {
+    max-width: 350px;
+    margin: 44px auto;
+    background: #f8fff8;
+    border-radius: 10px;
+    padding: 32px;
+    border: 1px solid #b6eeb6;
+    text-align: center;
+  }
+  .signup-page form input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #b1dfb1;
+  }
+  .signup-page button {
+    margin-top: 10px;
+    background: #43a047;
+    color: #fff;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .signup-links {
+    margin-top: 14px;
+    font-size: 0.98em;
+  }
+  .signup-error {
+    background: #ffd2d2;
+    color: #b71c1c;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 7px;
+  }
+  .signup-success {
+    background: #d2ffd2;
+    color: #1b5e20;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 7px;
+  }

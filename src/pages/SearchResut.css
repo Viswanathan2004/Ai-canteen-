@@ -1,0 +1,26 @@
+.search-results-page {
+    max-width: 500px;
+    margin: 36px auto;
+    background: #f7fafd;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #dbeafe;
+    text-align: center;
+  }
+  .search-results-page input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    border: 1px solid #bcdff1;
+  }
+  .search-results-list {
+    margin-top: 15px;
+  }
+  .search-result-item {
+    background: #fff;
+    border-radius: 6px;
+    padding: 8px 12px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+  }

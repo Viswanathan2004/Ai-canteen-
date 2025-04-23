@@ -1,0 +1,22 @@
+.voice-order {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #e6f7ff;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #b3e0ff;
+    text-align: center;
+  }
+  .voice-order button {
+    padding: 10px 28px;
+    border-radius: 6px;
+    border: none;
+    background: #00bfff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .order-text {
+    margin-top: 20px;
+    font-size: 1.1em;
+  }

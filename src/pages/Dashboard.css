@@ -1,0 +1,90 @@
+.stylish-dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .dashboard-overlay {
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 24px;
+    box-shadow: 0 8px 40px 0 rgba(26, 54, 110, 0.16);
+    padding: 48px 32px 32px 32px;
+    max-width: 880px;
+    width: 95vw;
+    margin: 48px auto;
+    text-align: center;
+  }
+  
+  .dashboard-title {
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #00c3ff 0%, #ffff1c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 32px;
+    margin-top: 16px;
+  }
+  
+  .dashboard-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f8fafc 70%, #e7ffe6 100%);
+    border-radius: 16px;
+    padding: 30px 0 20px 0;
+    box-shadow: 0 2px 16px rgba(38, 60, 120, 0.13);
+    text-decoration: none;
+    color: #1d3557;
+    transition: transform 0.17s, box-shadow 0.17s;
+    border: 2px solid #e3f2fd;
+    font-weight: 500;
+    font-size: 1.17em;
+    min-height: 145px;
+    position: relative;
+  }
+  
+  .dashboard-card:hover {
+    transform: scale(1.04) translateY(-2px);
+    box-shadow: 0 8px 24px rgba(38, 60, 120, 0.22);
+    border-color: #ffd600;
+    background: linear-gradient(135deg, #fffbe7 60%, #c2ffd2 100%);
+  }
+  
+  .dashboard-icon {
+    font-size: 2.7em;
+    margin-bottom: 14px;
+    filter: drop-shadow(0 3px 8px #fffef7);
+  }
+  
+  .dashboard-label {
+    font-size: 1.11em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    margin-top: 3px;
+  }
+  
+  @media (max-width: 600px) {
+    .dashboard-overlay {
+      padding: 14vw 5vw 7vw 5vw;
+      max-width: 99vw;
+    }
+    .dashboard-title {
+      font-size: 1.3rem;
+    }
+    .dashboard-grid {
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    }
+  }

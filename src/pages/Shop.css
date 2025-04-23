@@ -1,0 +1,35 @@
+.shop-page {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fffef7;
+    border-radius: 10px;
+    padding: 32px;
+    border: 1px solid #ffe9b3;
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+  .product-card {
+    background: #fff9e5;
+    border: 1px solid #ffe0b2;
+    border-radius: 8px;
+    padding: 16px;
+    width: 180px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .product-card h3 {
+    margin-top: 0;
+  }
+  .product-card button {
+    margin-top: 8px;
+    background: #ffb300;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
